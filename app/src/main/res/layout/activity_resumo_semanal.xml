@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="br.dexter.ifcamobile.Semana.ResumoSemanal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:shape="ring"
+            app:cardCornerRadius="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:id="@+id/BackHandle"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_back"
+                    tools:ignore="ContentDescription" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/TitleToolBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Resumo Semanal"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    tools:ignore="HardcodedText" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:id="@+id/Settings"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_settings"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_info1"
+            tools:ignore="ContentDescription" />
+
+        <fr.castorflex.android.smoothprogressbar.SmoothProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            style="@style/GNowProgressBar"/>
+
+        <TextView
+            android:id="@+id/LastUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Última alteração: 15/02/1964"
+            tools:ignore="HardcodedText" />
+
+        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+            android:id="@+id/shimmer_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:shimmer_demo_child_count="5"
+            app:shimmer_demo_grid_child_count="1"
+            app:shimmer_demo_layout_manager_type="grid"
+            app:shimmer_demo_angle="10"
+            app:shimmer_demo_duration="2000"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SemAtividade"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View6"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoSemAtividade"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SegundaFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/VerifyAtividadeSegunda"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View1"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Segunda-feira"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoSegunda"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    
+                    <EditText
+                        android:id="@+id/EditSegunda"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill,LabelFor" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/TercaFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/VerifyAtividadeTerca"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View2"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Terça-feira"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoTerca"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <EditText
+                        android:id="@+id/EditTerca"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill,LabelFor" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/QuartaFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/VerifyAtividadeQuarta"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View3"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Quarta-feira"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoQuarta"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <EditText
+                        android:id="@+id/EditQuarta"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill,LabelFor" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/QuintaFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/VerifyAtividadeQuinta"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View4"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Quinta-feira"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoQuinta"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <EditText
+                        android:id="@+id/EditQuinta"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill,LabelFor"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/SextaFeira"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            android:innerRadius="8dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/VerifyAtividadeSexta"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+                <View
+                    android:id="@+id/View5"
+                    android:layout_width="3.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent">
+                </View>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Sexta-feira"
+                        android:textStyle="bold"
+                        tools:ignore="HardcodedText" />
+
+                    <com.cooltechworks.views.WhatsAppTextView
+                        android:id="@+id/TextoSexta"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <EditText
+                        android:id="@+id/EditSexta"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textMultiLine"
+                        android:textSize="14sp"
+                        tools:ignore="Autofill,LabelFor" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

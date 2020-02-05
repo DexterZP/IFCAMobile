@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="br.dexter.ifcamobile.ADM.ProfessoresFalta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessLeaf">
+
+        <androidx.cardview.widget.CardView
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:shape="ring"
+            app:cardCornerRadius="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:id="@+id/BackHandle"
+                    android:layout_width="30dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/ic_back"
+                    tools:ignore="ContentDescription" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/TitleToolBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Sistema de Faltas"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_intro_app"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"/>
+
+        <LinearLayout
+            android:id="@+id/professor1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/professor2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/professor3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/professor4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/professor5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/professor6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="start">
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:id="@+id/professorFalta_6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Prof°: Testando Qualidade"
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary">
+            </View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faltas: "
+                android:textColor="@color/colorPrimary"
+                android:padding="4dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <com.rey.material.widget.Spinner
+                style="@style/Material.Widget.Spinner"
+                android:id="@+id/faltasSpinner6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:spn_dividerHeight="0dp"
+                app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:focusableInTouchMode="true"
+            android:hint="Informe anotações extras"
+            tools:ignore="HardcodedText">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Anotacao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/Enviar"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:text="Enviar relatório"
+            tools:ignore="HardcodedText"
+            android:textAllCaps="false"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

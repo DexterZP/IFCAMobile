@@ -1,0 +1,68 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar"> <!-- Theme.MaterialComponents.Light.DarkActionBar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar"> <!-- Theme.MaterialComponents.Light.NoActionBar -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="NavigationDrawable">
+        <item name="android:textSize">13sp</item> <!-- text size in menu-->
+
+        <!-- item size in menu-->
+        <item name="android:listPreferredItemHeightSmall">44dp</item>
+        <item name="listPreferredItemHeightSmall">44dp</item>
+
+        <!-- item padding left in menu-->
+        <item name="android:listPreferredItemPaddingLeft">16dp</item>
+        <item name="listPreferredItemPaddingLeft">16dp</item>
+
+        <!-- item padding right in menu-->
+        <item name="android:listPreferredItemPaddingRight">19dp</item>
+        <item name="listPreferredItemPaddingRight">19dp</item>
+    </style>
+
+    <style name="MyCustomTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog"> <!-- Theme.Design.Light.BottomSheetDialog -->
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal"> <!-- Widget.Design.BottomSheet.Modal -->
+        <item name="android:background">@drawable/sheet</item>
+    </style>
+
+    <style name="PauseDialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeut</item>
+    </style>
+
+    <style name="GNowProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">2dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">1.5</item>
+        <item name="spb_progressiveStart_speed">1.5</item>
+        <item name="spb_progressiveStop_speed">9</item>
+        <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>
+        <item name="spb_mirror_mode">false</item>
+        <item name="spb_reversed">false</item>
+        <item name="spb_colors">@array/rainbow</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_stroke_width">3dp</item>
+    </style>
+</resources>

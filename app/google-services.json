@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "836309986662",
+    "firebase_url": "https://ifca-mobile.firebaseio.com",
+    "project_id": "ifca-mobile",
+    "storage_bucket": "ifca-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836309986662:android:1894e365a0914888",
+        "android_client_info": {
+          "package_name": "br.dexter.ifcamobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836309986662-kn1ltvtapl4sor7asr7a9o4hio53c0v7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.dexter.ifcamobile",
+            "certificate_hash": "c2e23a9305b2c5ec475e72ad8e4f56b9402ee4ad"
+          }
+        },
+        {
+          "client_id": "836309986662-da0qeq8s73ht9a1dbehtueccmf687j18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.dexter.ifcamobile",
+            "certificate_hash": "5a2a4ffb1edcb44c72def5bbb4ea1709eb9ad2fc"
+          }
+        },
+        {
+          "client_id": "836309986662-ee95tmvvfdkbgot34sgjn6l30nmfpo8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKDy_AYfCgXis-Y-o56kuBOXW5Q3o8t3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836309986662-ee95tmvvfdkbgot34sgjn6l30nmfpo8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

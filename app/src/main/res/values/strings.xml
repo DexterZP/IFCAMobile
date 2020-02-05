@@ -1,0 +1,249 @@
+<resources>
+    <string name="app_name">IFCA Mobile</string>
+    <string name="navigation_drawer_open">Abrir navegação</string>
+    <string name="navigation_drawer_close">Fechar navegação</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="DatabaseName">Anexos</string>
+
+    <string-array name="FaltasProfessores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="RandomTXT">
+        <item>Existe um extenso artigo da Wikipedia sobre como é a astronomia de um ponto de vista marciano.</item>
+        <item>Bakhtiyar Khilji, o general muçulmano, destruiu a antiga universidade e biblioteca de Nalanda em 1193 na esperança de desenraizar o budismo. A destruição da biblioteca é considerada como responsável pelo desaparecimento do antigo pensamento científico indiano em Astronomia, Matemática, Alquimia e Anatomia.</item>
+        <item>Os seres humanos foram considerados os primeiros computadores a partir do início do século XVII. Esses indivíduos calculariam cálculos longos referentes à astronomia, álgebra, geometria e trigonometria.</item>
+        <item>Harlow Shapley, o homem que descobriu onde o nosso sol está em relação à nossa galáxia, escolheu a astronomia para estudar como seu tema principal, porque foi o primeiro que ele viu no catálogo do curso.</item>
+        <item>Em vez dos presentes tradicionais de um relógio e um par de calças compridas, a mãe do cientista de foguetes Wernher Von Braun deu-lhe um telescópio para sua confirmação luterana, despertando sua paixão pela astronomia.</item>
+        <item>Longe de impedir a ciência, “a Igreja Católica Romana deu mais apoio financeiro e apoio ao estudo da astronomia por mais de seis séculos, desde a recuperação do aprendizado antigo durante o final da Idade Média até o Iluminismo, do que qualquer outro, e provavelmente, todas as outras instituições. ”</item>
+        <item>O Sagan Planet Walk – uma representação em escala de 1,2 km, escala 1: 5 bilhões, do sistema solar em Ithaca, NY foi expandida em 1997 para incluir Alpha Centauri (a estrela vizinha mais próxima). Está localizado no Centro de Astronomia Imiloa da Universidade do Havaí, tornando-se a maior exposição do mundo.</item>
+        <item>Uma das realizações mais conhecidas de al-Battānī (858 – 929 D.C) na astronomia foi a determinação do ano solar como sendo 365 dias, 5 horas, 46 minutos e 24 segundos.</item>
+        <item>O famoso astrônomo Tycho Brahe, conhecido por ajudar a revolucionar a astronomia nos anos 1500, perdeu um pedaço de seu nariz em um duelo de espadas com um colega em relação à legitimidade de uma fórmula matemática, levando-o a viver o resto de sua vida com uma inserção de metal sobre o pedaço ausente.</item>
+        <item>Um passo crítico na criação do Wi-Fi foi um subproduto da pesquisa para melhorar a imagem da astronomia.</item>
+        <item>O primeiro observatório da Etiópia foi inaugurado em 2014 e os astrônomos esperam que seus empreendimentos espaciais iniciem uma cultura científica na África subsaariana, uma região onde atualmente muito pouca astronomia é ensinada.</item>
+        <item>Pesquisadores que trabalham na Bell Labs são responsáveis ​​pelo desenvolvimento da radioastronomia, do transistor, do laser, do CCD (sensor de imagem), da teoria da informação, do sistema operacional Unix e das linguagens de programação C e C ++. Prémios Nobel.</item>
+        <item>O Vaticano tem seu próprio observatório para buscar a ciência da astronomia.</item>
+        <item>A data do calendário da Páscoa é baseada na astronomia. Geralmente é o primeiro domingo após a primeira lua cheia após o equinócio vernal.</item>
+    </string-array>
+
+    <string-array name="Materias_Infor3">
+        <item>Biologia</item>
+        <item>Filosofia</item>
+        <item>Arte</item>
+        <item>Língua Inglesa</item>
+        <item>Geografia</item>
+        <item>Língua Portuguesa</item>
+        <item>Educação Física</item>
+        <item>Língua Espanhola</item>
+        <item>Física</item>
+        <item>Matemática</item>
+        <item>Química</item>
+        <item>Sociologia</item>
+        <item>Programação</item>
+        <item>Gerência de Projetos</item>
+        <item>Aplicativos de Banco de Dados</item>
+        <item>Empreendedorismo em Informática</item>
+        <item>História</item>
+        <item>Inglês Técnico</item>
+    </string-array>
+
+    <string-array name="Materias_Infor2">
+        <item>Arte</item>
+        <item>Biologia</item>
+        <item>Educação Física</item>
+        <item>Filosofia</item>
+        <item>Física</item>
+        <item>Geografia</item>
+        <item>História</item>
+        <item>Banco de Dados</item>
+        <item>Estrutura de Dados</item>
+        <item>Inglês Técnico</item>
+        <item>Metodologia de Desenvolvimento de Sistemas</item>
+        <item>Programação</item>
+        <item>Sistemas Operacionais</item>
+        <item>Inglês</item>
+        <item>Língua Espanhola</item>
+        <item>Língua Portuguesa</item>
+        <item>Química</item>
+        <item>Sociologia</item>
+    </string-array>
+
+    <string-array name="Materias_ADM1">
+        <item>Filosofia I</item>
+        <item>Sociologia I</item>
+        <item>Arte I</item>
+        <item>Biologia I</item>
+        <item>Economia e Mercados</item>
+        <item>Educação Física</item>
+        <item>Física I</item>
+        <item>Geografia I</item>
+        <item>Gestão de Pessoas</item>
+        <item>História I</item>
+        <item>Introdução à Informática</item>
+        <item>Introdução à Metodologia Científica</item>
+        <item>Língua Portuguesa I</item>
+        <item>Matématica I</item>
+        <item>Organização, Sistemas e Métodos</item>
+        <item>Química I</item>
+        <item>Teorias Administrativas</item>
+    </string-array>
+
+    <string-array name="Materias_ADM2">
+        <item>Administração Financeira e Orçamentaria</item>
+        <item>Comunicação Empresarial</item>
+        <item>Contabilidade Básica</item>
+        <item>Elaboração de Projeto</item>
+        <item>Filosofia II</item>
+        <item>Marketing e Propaganda</item>
+        <item>Matemática Financeira</item>
+        <item>Arte II</item>
+        <item>Biologia II</item>
+        <item>Educação Física II</item>
+        <item>Física II</item>
+        <item>Geografia II</item>
+        <item>História II</item>
+        <item>Inglês I</item>
+        <item>Língua Espanhola I</item>
+        <item>Língua Portuguesa II</item>
+        <item>Matemática II</item>
+        <item>Química II</item>
+        <item>Sociologia II</item>
+    </string-array>
+
+    <string-array name="Materias_AGROPECUARIA2">
+        <item>Gestão Agropecuária</item>
+        <item>Suinocultura</item>
+        <item>Ovinocaprinocultura</item>
+        <item>Forragicultura</item>
+        <item>Mecanização Agrícola</item>
+        <item>Inrrigação e Drenagem</item>
+        <item>Arte II</item>
+        <item>Física II</item>
+        <item>Língua Portuguesa II</item>
+        <item>Educação Física II</item>
+        <item>Língua Espanhola I</item>
+        <item>Matemática II</item>
+        <item>História II</item>
+        <item>Filosofia II</item>
+        <item>Geografia II</item>
+        <item>Biologia II</item>
+        <item>Língua Inglesa I</item>
+        <item>Sociologia II</item>
+        <item>Topografia e Geoprocessamento</item>
+    </string-array>
+
+    <string-array name="Materias_AGROPECUARIA3">
+        <item>Biologia III</item>
+        <item>Arte III</item>
+        <item>Geografia III</item>
+        <item>Língua Portuguesa III</item>
+        <item>Educação Física III</item>
+        <item>Língua Espanhola II</item>
+        <item>Física III</item>
+        <item>Matemática III</item>
+        <item>Química III</item>
+        <item>Elaboração de Projetos</item>
+        <item>Fruticultura</item>
+        <item>Agroecologia</item>
+        <item>Sulvicultura</item>
+        <item>Bovinocultura</item>
+        <item>Fundamentos de Desenho Técnico e Construções Rurais</item>
+        <item>Sociologia III</item>
+        <item>Língua Inglesa III</item>
+        <item>Filosofia III</item>
+    </string-array>
+
+    <string-array name="Materias_AGROINDUSTRIA1">
+        <item>Processamento de Produtos de Origem Vegetal</item>
+        <item>Introdução á Ciência de Alimentos</item>
+        <item>Conservação de Alimentos</item>
+        <item>História I</item>
+        <item>Geografia I</item>
+        <item>Química I</item>
+        <item>Matemática I</item>
+        <item>Física I</item>
+        <item>Biologia I</item>
+        <item>Microbiologia de Alimentos</item>
+        <item>Língua Portuguesa</item>
+        <item>Introdução á Metodologia Científica</item>
+        <item>Informática Aplicada</item>
+        <item>Educação Física I</item>
+        <item>Arte I</item>
+    </string-array>
+
+    <string-array name="Materias_AGROINDUSTRIA2">
+        <item>Matemática II</item>
+        <item>Química II</item>
+        <item>Física II</item>
+        <item>Biologia II</item>
+        <item>Geografia II</item>
+        <item>Inglês I</item>
+        <item>Arte II</item>
+        <item>História II</item>
+        <item>Língua Espanhola I</item>
+        <item>Sociologia II</item>
+        <item>Filosofia II</item>
+        <item>Processamento de Produtos de Origem Animal I</item>
+        <item>Processamento de Produtos de Origem Vegetal II</item>
+        <item>Desenho e Projeto de Construções Agroindustriais</item>
+        <item>Bioquímica Industrial</item>
+        <item>Análise Bromatológica</item>
+        <item>Educação Física II</item>
+        <item>Língua Portuguesa II</item>
+    </string-array>
+
+    <string-array name="Materias_AGROINDUSTRIA3">
+        <item>Biologia III</item>
+        <item>Filosofia III</item>
+        <item>Normas Fiscais</item>
+        <item>Arte III</item>
+        <item>Processamento de Material de Limpeza</item>
+        <item>Resíduos Agroindustriais</item>
+        <item>Geografia III</item>
+        <item>Língua Portuguesa III</item>
+        <item>Educação Física III</item>
+        <item>Língua Espanhola II</item>
+        <item>Física III</item>
+        <item>Matemática III</item>
+        <item>Química III</item>
+        <item>Sociologia III</item>
+        <item>História III</item>
+        <item>Inglês II</item>
+        <item>Processamento de Produtos de Origem Animal II</item>
+        <item>Processamento de Produtos de Origem Vegetal III</item>
+        <item>Gestão de Empreendimentos Agroindustriais</item>
+    </string-array>
+
+    <string name="hardware">HARDWARE: </string>
+    <string name="model">MODEL: </string>
+    <string name="id">ID: </string>
+    <string name="manufacturer">MANUFACTURER: </string>
+    <string name="brand">BRAND: </string>
+    <string name="type">TYPE: </string>
+    <string name="user">USER: </string>
+    <string name="base">BASE: </string>
+    <string name="incremental">INCREMENTAL: </string>
+    <string name="board">BOARD: </string>
+    <string name="host">HOST: </string>
+    <string name="fingerprint">FINGERPRINT: </string>
+    <string name="versioncode">VERSION CODE: </string>
+
+    <string name="slide_7_title">Política de Privacidade</string>
+    <string name="slide_7_content">Todas as suas informações pessoais recolhidas, serão usadas para o ajudar a tornar a sua visita no nosso aplicativo o mais produtiva e agradável possível.
+        \n\nA garantia da confidencialidade dos dados pessoais dos utilizadores do nosso sistema é importante para o IFCA Mobile.
+        \n\nTodas as informações pessoais relativas a membros ou visitantes que usem o IFCA Mobile serão tratadas em concordância com a Lei da Proteção de Dados Pessoais de 26 de outubro de 1998 (Lei n.º 67/98).
+        \n\nA informação pessoal recolhida pode incluir o seu nome, e/ou outros.
+        \n\nO uso do aplicativo pressupõe a aceitação deste Acordo de privacidade. A equipa do aplicativo reserva-se ao direito de alterar este acordo sem aviso prévio. Deste modo, recomendamos que consulte a nossa política de privacidade com regularidade de forma a estar sempre atualizado.
+        \n\nLigações a Sites de terceiros
+        \n\nO aplicativo possui ligações para outros sites, os quais, a nosso ver, podem conter informações / ferramentas úteis para os nossos visitantes.
+        \n\nA nossa política de privacidade não é aplicada a sites de terceiros, pelo que, caso visite outro site a partir do nosso deverá ler a politica de privacidade do mesmo.
+        \n\nNão nos responsabilizamos pela política de privacidade ou conteúdo presente nesses mesmos sites.
+    </string>
+    <string name="slide_7_checkbox_label">Concordo com os termos e condições de uso</string>
+    <string name="slide_7_error">Você precisa aceitar os termos.</string>
+
+</resources>

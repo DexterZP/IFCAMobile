@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474f</color>
+    <color name="colorPrimaryDark">#102027</color>
+    <color name="colorAccent">#62727b</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#00FF00</color>
+
+    <color name="colorPrimary_backup">#37474f</color>
+    <color name="colorPrimaryDark_backup">#102027</color>
+    <color name="colorAccent_backup">#62727b</color>
+
+    <color name="red">#da4d39</color>
+    <color name="yellow">#ffc113</color>
+    <color name="green">#009c58</color>
+    <color name="azure">#1166e8</color>
+
+    <color name='horario1'>#A2CD5A</color>
+    <color name='horario2'>#5D478B</color>
+    <color name='horario3'>#CD5555</color>
+
+    <color name='horario4'>#8B008B</color>
+    <color name='horario5'>#B0E2FF</color>
+    <color name='horario6'>#698B69</color>
+
+    <color name="corShow">@android:color/holo_blue_dark</color>
+
+    <array name="rainbow">
+        <item>@color/azure</item>
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </array>
+
+</resources>

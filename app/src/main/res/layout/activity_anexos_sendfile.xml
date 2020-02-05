@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Escolha a disciplina"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <com.rey.material.widget.Spinner
+        style="@style/Material.Widget.Spinner"
+        android:id="@+id/SelectMateria"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:spn_dividerHeight="1dp"
+        app:spn_dividerColor="@color/azure"
+        app:rd_style="@style/Material.Drawable.Ripple.Wave"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <com.rey.material.widget.Button
+            android:id="@+id/Cancelar"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"
+            android:background="@drawable/round0"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textColor="@color/azure"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"
+            tools:ignore="HardcodedText" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/EscolherArquivo"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"
+            android:background="@drawable/round0"
+            android:text="Escolher arquivo"
+            android:textAllCaps="false"
+            android:textColor="@color/azure"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <ImageView
+            android:id="@+id/nameImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/ic_pdf"
+            tools:ignore="ContentDescription" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:background="@color/colorAccent"
+            android:layout_margin="10dp">
+        </View>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Verify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Arquivo: Existe em seu dispositivo"
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameMat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Disciplina: Biologia"
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Nome: Vacina contra todos"
+                android:textSize="14sp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Tamanho: 20.00 MB"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/nameData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="Data: 12 de maio"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+</LinearLayout>

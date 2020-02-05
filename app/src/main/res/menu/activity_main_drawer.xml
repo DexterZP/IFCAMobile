@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item android:title="">
+            <menu>
+
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single"
+        tools:ignore="HardcodedText">
+        <item
+            android:id="@+id/nav_resumo"
+            android:icon="@drawable/ic_resumo"
+            android:title="Resumo Semanal" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom1"
+        android:checkableBehavior="single"
+        tools:ignore="HardcodedText">
+        <item
+            android:id="@+id/nav_horario"
+            android:icon="@drawable/ic_horario"
+            android:title="Horários" />
+        <item
+            android:id="@+id/nav_anexo"
+            android:icon="@drawable/ic_anexo"
+            android:title="Anexos" />
+        <item
+            android:id="@+id/nav_calendarioACAD"
+            android:icon="@drawable/ic_calendar"
+            android:title="Calendário ACAD" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom2"
+        android:checkableBehavior="single"
+        tools:ignore="HardcodedText">
+        <item
+            android:id="@+id/nav_gravar"
+            android:icon="@drawable/ic_micro"
+            android:title="Gravações" />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom3"
+        android:checkableBehavior="single"
+        tools:ignore="HardcodedText">
+        <item
+            android:id="@+id/nav_noticia"
+            android:icon="@drawable/ic_noticia"
+            android:title="Notícias" />
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_help"
+            android:title="Feedback" />
+    </group>
+
+</menu>

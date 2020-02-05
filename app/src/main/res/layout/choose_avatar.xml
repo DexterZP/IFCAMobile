@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi1"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi1"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi2"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi2"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi3"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi3"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi4"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi4"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi5"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi5"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi6"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi6"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi7"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi7"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi8"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi8"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/heroi9"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/heroi9"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/colorAccent"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
